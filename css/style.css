@@ -1,0 +1,87 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+@import url('http://marketofskripts.pl/css/font-awesome.css');
+@import url('http://marketofskripts.pl/css/overwrite.css');
+@import url('http://marketofskripts.pl/css/animate.css');
+/*==========================================================================
+  General
+  ========================================================================== */
+body {
+	color: #777;
+	background: #f7f7f7;
+	font-size: 16px;
+	line-height: 1.6em;
+	font-weight: 300;
+	text-shadow: none;
+}
+iframe {
+	border: none;
+}
+section#footer {
+    background: none repeat scroll 0% 0% #FFF;
+    margin: 0px;
+	position: relative; bottom: -430px;
+}
+.row:before, .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.row:after {
+    clear: both;
+}
+section#footer .copyright {
+    text-align: center;
+}
+section#footer .reklama {
+    text-align: center;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.row {
+    z-index: 9999;
+}
+.row {
+    margin-left: -30px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    box-sizing: border-box;
+}
+.col-sm-12 {
+    width: 100%;
+}
+a {
+    color: #35A49C;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Lato",sans-serif;
+}
